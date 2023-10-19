@@ -118,7 +118,7 @@ public class WeatherApi {
 
     }
     
-    public static CourseWeather[][] parseJSONToCourseWeather(long courseId) {
+    public static CourseWeather[][] getCourseWeatherDoubleArr(long courseId) {
         try {
         	Timer t1 = new Timer();
         	t1.start();
