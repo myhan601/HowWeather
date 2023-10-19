@@ -16,8 +16,12 @@ private long executionTime;
     }
     
     @Override
-    	public String toString() {
-    		String str = "작업 실행 시간: " + executionTime + " 밀리초";
-    		return str;
-    	}
+    public String toString() {
+		String str = "작업 실행 시간: " + executionTime + " 밀리초";
+		return str;
+	}
+    
+    public void printTime() {
+    	System.out.println(toString());
+    }
 }

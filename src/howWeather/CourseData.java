@@ -28,6 +28,10 @@ public class CourseData {
 		this.indoorType = indoorType;
 		this.themeName = themeName;
 	}
+    
+    public CourseData() {
+    	
+    }
 
 	public String getThemeCategory() {
 		return themeCategory;
